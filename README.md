@@ -108,6 +108,6 @@ Feel free to make any comments, file issues or make pull requests.
 
 ## Credits
 
-- Forked by [cdaguerre/php-trello-api](https://github.com/fsflex/php-trello-api)
+- Forked by [fsflex/php-trello-api](https://github.com/fsflex/php-trello-api)
 - Largely inspired by the excellent [php-github-api](https://github.com/KnpLabs/php-github-api) developed by the guys at [KnpLabs](http://knplabs.fr)
 - Thanks to Trello for the API and documentation.
