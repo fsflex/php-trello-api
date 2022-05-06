@@ -28,7 +28,7 @@ Uses [Trello API v1](https://trello.com/docs/index.html). The object API is very
 The recommended way is using [composer](http://getcomposer.org):
 
 ```bash
-$ composer require matteocacciola/php-trello-api
+$ composer require fsflex/php-trello-api
 ```
 However, `php-trello-api` follows the PSR-0 naming conventions, which means you can easily integrate `php-trello-api` class loading in your own autoloader.
 
@@ -70,7 +70,7 @@ $card
 
 The service uses the [Symfony EventDispatcher](https://github.com/symfony/EventDispatcher) component to dispatch events occuring on incoming webhooks.
 
-Take a look at the [Events](https://github.com/cdaguerre/php-trello-api/blob/master/lib/Trello/Events.php) class constants for names and associated event classes.
+Take a look at the [Events](https://github.com/fsflex/php-trello-api/blob/master/lib/Trello/Events.php) class constants for names and associated event classes.
 
 ```php
 use Trello\Client;
@@ -108,6 +108,6 @@ Feel free to make any comments, file issues or make pull requests.
 
 ## Credits
 
-- Forked by [cdaguerre/php-trello-api](https://github.com/cdaguerre/php-trello-api)
+- Forked by [cdaguerre/php-trello-api](https://github.com/fsflex/php-trello-api)
 - Largely inspired by the excellent [php-github-api](https://github.com/KnpLabs/php-github-api) developed by the guys at [KnpLabs](http://knplabs.fr)
 - Thanks to Trello for the API and documentation.
